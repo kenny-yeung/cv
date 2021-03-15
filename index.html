@@ -1,78 +1,60 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Kenny's Personal Site</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <table cellspacing = "20">
-            <tr>
-                <td><img src = "kenny.png" alt = "Kenny Yeung Profile Picture" height = "200" width = "200"></td>
-                <td>
-                    <h1>Kenny Yeung</h1>
-                    <p><em>Graduate of the <strong><a href = "https://www.auckland.ac.nz/en.html">University of Auckland</a></strong></em></p>
-                    <p>I am a Freelance Developer, I like to go hiking and watching movies.</p>
-                </td>
-            </tr>
-        </table>
-        
-        
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>Bachelors of Science, Majoring in Computer Science.</li>
-            <li>NCEA Level 3, Rutherford College</li>
-        </ul>
-        <hr>
 
-        <h3>Work Experience</h3>
-        <table cellspacing = "10px">
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-            </tr>
-                <td>2020-Present</td>
-                <td>Freelance Web Developer</td>
-            </tr>
+<head>
+  <meta charset="utf-8">
+  <title>Kenny Yeung</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Monsterrat|Sacramento" rel="stylesheet">
+</head>
 
-            <tr>
-                <td>2016-2020</td>
-                <td>Happy Snappa (Family Business)</td>
-            </tr>
-        </table>
-        <hr>
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Kenny.</h1>
+    <h2>a <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
 
-        <h3>Skills</h3>
-        <table cellspacing = "10px">
-            <tr>
-                    <tr>
-                        <td>Javascript</td>
-                        <td> &#9885&#9885&#9885&#9885&#9885</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>HTML 5</td>
-                        <td> &#9885&#9885&#9885&#9885&#9885</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td> &#9885&#9885&#9885&#9885&#9885</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td> &#9885&#9885&#9885&#9885</td>
-                    </tr>
-            </tr>
-        </table>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/kenny.png" alt="kenny-img" height = "200px" width = "200px">
+      <h2>Hello.</h2>
+      <p class = "bio">I am a graduated student of the University of Auckland, majoring in Computer Science.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="computer" src="images/computer.png" alt="computer-img" >
+        <h3>Devlopement</h3>
+        <p class = "code-skill-description">I started coding when I developed a passion for computers. I have learned a variety of programming languages that
+        put me in a position to develop websites.</p>
+      </div>
+      <div class="skill-row">
+        <img class="cube" src="images/cube.png" alt="cube-img by DinosoftLabs" title = "by DinosoftLabs">
+        <h3>Speedcubing</h3>
+        <p class = "cube-skill-description">But my best skill is actually solving the Rubik's cube! My fastest time is 9 seconds! and it keeps getting better the more I learn different algorithms!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you like speedcubing as much as I do.</h3>
+      <p class = "contact-message">Like speedcubing as much as I do? Let's talk about how fun they are while we code!</p>
+      <a class="btn" href="mailto:kennyyeung98@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-        <a href = "hobbies.html">My Hobbies</a>
-        <a href = "contact.html">Contact Me </a>
-        <script src="" async defer></script>
-    </body>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/kenny-yeung-9a62991a5/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/kenny-yeung">Github</a>
+    <a class="footer-link" href="https://www.instagram.com/kenny_deshen/">Instagram</a>
+    <p class = "copyright">© 2021 Kenny Yeung.</p>
+  </div>
+
+</body>
+
 </html>
