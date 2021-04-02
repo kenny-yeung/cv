@@ -21,6 +21,10 @@ h2{
   padding-bottom: 10px;
 }
 
+h3.project-title{
+  font-size: 55px;
+}
+
 h3{
   color: #11999E;
   font-family: "Montserrat", sans-serif;
@@ -28,6 +32,20 @@ h3{
 p{
   line-height: 2;
 }
+
+.projects-rule{
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  background-color: #FFF;
+  width: 4%;
+  margin: 10px auto;
+}
+
+.projects-contents{
+  margin-top: 125px;
+  width: 80%;
+}
+
 hr{
   border: dotted #EAF6F6 6px;
   border-bottom: none;
@@ -136,4 +154,19 @@ a:hover{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+.project-header{
+  padding: 50px;
+  margin-top: -55px;
+  margin-bottom: 50px;
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+}
+
+.hover-card:hover{
+  cursor: pointer;
 }
